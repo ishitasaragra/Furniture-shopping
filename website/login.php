@@ -42,19 +42,18 @@ Author URL: http://w3layouts.com
       <h3 class="hny-title mb-lg-5 mb-4">LOG IN HERE</h3>
         <div class="login12-main mb-5">
             <form action="https://sendmail.w3layouts.com/submitForm" method="post">
-                <div class="main-input">
+                <div class="main-input ">
                     <div class="d-grid">
-                        <input type="text" name="w3lName" id="w3lName" placeholder="Your Name" class="login-input" />
+                        <input type="text" name="w3lName" id="w3lName" placeholder="Your Name" class="login-input" required >
                        
                     </div>
                     <div class="d-grid">
                         <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email id"
-                            class="login-input" required /><br>
-					    <input type="password" name="w3lSender" id="w3lSender" placeholder="password"
-                            class="login-input" required /><br>
-					
+                            class="login-input" required ><br>
+					   <label><input type="password" name="w3lSender" id="w3lSender" placeholder="password"
+                            class="login-input" required /></label><br>
 					<div class="text-left">
-                         <text class=<"text-primary text-login">forget password?</button>
+                       <button><text class=<"text-primary text-login">forget password?</button>
                     </div>	
                          </div>
                 <div class="text-right">

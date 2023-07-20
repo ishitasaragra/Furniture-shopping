@@ -60,10 +60,10 @@ Author URL: http://w3layouts.com
                             class="signup-input" /><br>
 					    <input type="Gender" name="w3lGender" id="w3lGender" placeholder="Gender :"
                             class="signup-input" /><br>
-                    </div>
+						
+					</div>
                 </div>
-                <textarea class="contact-textarea" name="w3lMessage" id="w3lMessage"
-                    placeholder="Type your message here" required></textarea>
+                
                 <div class="text-right">
                     <button class="btn btn-style btn-primary btn-contact">Submit Now</button>
                 </div>
